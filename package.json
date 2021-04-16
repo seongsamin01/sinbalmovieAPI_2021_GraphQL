@@ -1,0 +1,25 @@
+{
+  "name": "grapqlapi",
+  "version": "1.0.0",
+  "description": "movieapi with graphql",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seongsamin01/sinbalmovieAPI_2021_GraphQL.git"
+  },
+  "keywords": [
+    "GraphQLAPI"
+  ],
+  "author": "seongsamin <rlaalswjd445@naver.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seongsamin01/sinbalmovieAPI_2021_GraphQL/issues"
+  },
+  "homepage": "https://github.com/seongsamin01/sinbalmovieAPI_2021_GraphQL#readme",
+  "dependencies": {
+    "graphql-yoga": "^1.18.3"
+  }
+}
