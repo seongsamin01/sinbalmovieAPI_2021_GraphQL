@@ -1,12 +1,11 @@
-const crystal = {
-    name: "Crystal",
-    age: 23,
-    gender: "female"
-};
+import { people, getById } from "./db";
 
 const resolvers = {
     Query: {
-        person: () => crystal
+        people: () => people,
+        person: (_, args) => {
+            console.log(args);
+        }
     }
 };
 
