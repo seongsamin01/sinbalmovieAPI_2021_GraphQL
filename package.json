@@ -21,7 +21,8 @@
   },
   "homepage": "https://github.com/seongsamin01/sinbalmovieAPI_2021_GraphQL#readme",
   "dependencies": {
-    "graphql-yoga": "^1.18.3"
+    "graphql-yoga": "^1.18.3",
+    "node-fetch": "^2.6.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.13.14",
